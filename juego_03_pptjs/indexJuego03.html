@@ -1,0 +1,89 @@
+<!-- COMPATIBILIDAD HTML 5 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- CONFIGURAR LA CODIFICACION-->
+	<meta charset="utf-8" />
+	<title>PIEDRA :: PAPEL :: TIJERA..</title>
+		<!-- LLAMADO A LA FUNCION JAVA SCRIPT-->
+	<script type="text/javascript" src="js/juego03Controller.js">
+	</script>
+
+	<!-- LLAMADO AL ESTILO DE LA APLICACION WEB -->		
+	<link rel="stylesheet" type="text/css" href="css/estiloPageJuego03.css">
+
+</head>
+<!-- CUERPO DEL DOCUMENTO -->
+<body>
+ <header>
+ 	<nav id="BoxMenuOperations">
+ 		<div>
+ 			<h2>Menu :: PIEDRA  - PAPEL - TIJERA - LAGARTO - SPOK </h2>
+ 		</div>
+
+ 		<ul class="navlist">
+			
+				<li>
+					<a href="#" onclick="seleccionarOpcionUsuarioModoInterfazWeb(0);">Seleccionar PIEDRA</a>
+				</li>
+			
+		
+				<li>
+					<a href="#" onclick="seleccionarOpcionUsuarioModoInterfazWeb(1);">Seleccionar  PAPEL</a>
+				</li>
+			
+		
+				<li>
+					<a href="#" onclick="seleccionarOpcionUsuarioModoInterfazWeb(2);">Seleccionar  TIJERA</a>
+				</li>
+		
+		   
+				<li>
+					<a href="#" onclick="seleccionarOpcionUsuarioModoInterfazWeb(3);">Seleccionar  LAGARTO</a>
+				</li>
+			
+		    
+				<li>
+					<a href="#" onclick="seleccionarOpcionUsuarioModoInterfazWeb(4);">Seleccionar  SPOK</a>
+				</li>
+			</div>										
+ 		</ul> 
+ 	</nav>
+ </header>
+ <nav>
+ 	<h2>Piedra, Papel, Tijera, Lagarto, Spok ::  Modo web  ::   Ing. Jaime Diaz.
+ 	</h2>
+ </nav>
+
+ <!--  SECCION ::   HTML5 -->
+ <SECTION>
+ 	<hgroup>
+ 	<h1></h1>
+ 	</hgroup>
+
+ 	<div id="BoxContainer">
+	 	 <div id="BoxMenuCentral" >
+	 		<h2>Consola de resultados v 1.0</h2> 		 	
+	 		<p id="fila1">resultados...</p><br>
+
+	 	</div>
+	 	<p id="resultado2"></p>
+ 	</div>
+
+
+ 	<!-- articulo dentro de la seccion -->
+ 	<article>
+ 		<p></p>
+ 	</article>
+
+ </SECTION>
+
+
+  <!-- LLAMADO A FUNCION RAIZ DE DOCUMENTO HACIA EL ARTEFACTO .JS -->
+<script type="text/javascript">
+	juego03VoidMain(817);
+</script>	
+
+</body>
+
+</html>

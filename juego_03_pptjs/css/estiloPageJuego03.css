@@ -1,0 +1,88 @@
+
+
+#BoxMenuOperations {
+	/*  PROPIEDADES BASICAS de esta caja */
+		background: #88BFBA;
+		box-shadow:  30px 20px 40px -20px #555;
+}
+
+* {
+	margin: 1;
+	padding: 1;
+}
+
+/*    */
+header nav {
+	width:  60%;
+	max-width: 900px;
+	margin: 30px auto;
+	background: #6A9E9A;
+	display: block;
+	border: 1px solid ;
+	border-radius: 0.5em;
+	
+}
+
+/*  ESTILOS GENERALES AL CUERPO DE LA PAGINA */
+
+navlist li{
+	display: inline;
+	padding-right: 20px;
+}
+
+body{
+	background-color: #C6E4C9;
+}
+h2 {
+	text-align: center;
+	color: #152726;
+}
+h1 {
+	text-align: left;
+}
+#centrarElemento {
+	text-align: center;
+}
+
+#RegionContenidoCentral {
+		float: left;
+		width: 900px;
+		max-width:  700px;
+		margin: 35px auto;
+		background-color: #88BFBA;
+		border: 1px solid: 29px;
+}
+
+#BoxMenuCentral{
+		/*  PROPIEDADES BASICAS de esta caja */
+		width:  400px;
+		height: 250px;
+		max-width: 1000px;
+		margin: 30px auto;
+		/*2ackground: #6A9E9A;*/
+		display: block;
+		border: 1px solid;
+
+		background: #88BFBA;
+		box-shadow:  30px 20px 40px -20px #555;
+
+}
+
+#BoxMenuOpciones{
+			/*  PROPIEDADES BASICAS de esta caja */
+		width:  15%;
+		max-width: 800px;
+		text-align: right;
+		margin: 30px auto;
+		background: #A8E1DC;
+		display: block;
+		border: 1px solid;
+
+		box-shadow:  30px 20px 40px -20px #555;
+}
+
+#BoxContainer{
+	width: 1000px;
+	height: 800px;
+	text-align: center;
+}
